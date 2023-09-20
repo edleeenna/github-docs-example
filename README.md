@@ -36,12 +36,36 @@ NameError: name 'variable_does_not_exist' is not defined
 ```
 > Here is an example of using a codeblock for an error that appears in bash.
 
-## Step 2 - Use Github Flavored Markdown Task Lists
+## Step 3 - Use Github Flavored Markdown Task Lists
 
-Github extends Markdown to have a list where you can check off items. <sup>[1]</sup>
+Github extends Markdown to have a list where you can check off items. [<sup>[1]</sup>](#references)
 
+- [x] Finish Step 1
+- [ ] Finish Step 2
+- [ ] Finish Step 3
 
+## Step 4 - Use Emojis
+Github flaboured Markdown (GFM) supports
+| Name | Shortcode | Emoji |
+| --- | --- | --- |
+| Cloud | `:cloud:` |:cloud:|
+| Cloud | `:cloud_with_lightning` |:cloud_with_lightning:|
+
+## Step 5 - How to create a table
+
+You can use the following markdown formate to create tables:
+
+```markdown
+| Name | Shortcode | Emoji |
+| --- | --- | --- |
+| Cloud | `:cloud:` |:cloud:|
+| Cloud | `:cloud_with_lightning` |:cloud_with_lightning:|
+```
+
+Github extends the functionalist of Markdown tables to provide more alignment and table cell formatting options [<sup>[2]</sup>](#references)
 
 ## References
 - [Github Flavored Markdown Spec](https://github.github.com/gfm/)
 - [GFM - Task Lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists) <sup>[1]</sup>
+- [GTM - Emjoi CheatSheet](https://github.com/ikatyang/emoji-cheat-sheet)
+- [GFM -Tables (with Extensions)](https://github.github.com/gfm/#tables-extension-) <sup>[2]</sup>
